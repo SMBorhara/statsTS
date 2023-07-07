@@ -1,7 +1,8 @@
 import {dateStringToDate} from './utils.js'
 import {MatchResult} from './MatchResult.js'
+import { MatchData } from './MatchData.js'
 
-type MatchData = [Date, string, string, number, number, MatchResult, string]
+
 
 
 interface DataReader {
